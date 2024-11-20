@@ -1,0 +1,55 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title> Realiza tu pedido </title>
+            <meta http-equiv="conten-Type" content="text/html"; charset="utf-8"/>
+            <link rel="stylesheet" href="css formulario 2.0.css">
+        
+        </head>
+
+<body>
+    <font size="10" color="purple" face="courier">
+        <center>Realiza tu pedido</center>
+      </font>
+
+        
+    <form action="/action_page.php" method="post">
+        <label>Nombres</label>
+        <input type="text" id="nom" name="nombres" placeholder="Ingrese sus Nombres"required><br>
+        <label>Apellidos</label>
+        <input type="text" id="apell" name="apellidos" placeholder="Ingrese sus Apellidos"required><br>
+        <label>Correo Electronico</label>
+        <input type="text" id="corr" name="correo electronico" placeholder="Ingrese su Correo Electronico"required><br>
+        <label>Teléfono</label>
+        <input type="number" id="tel" name="teléfono" placeholder="Ingrese su Teléfono"required><br>
+        <label>Dirección</label>
+        <input type="text" id="dir" name="dirección" placeholder="Ingrese su Dirección"required><br>
+        <label>Lista de Productos</label>
+        <input type="text" id="list" name="Lista de Productos" placeholder="Ingrese los Productos a pedir"required><br>
+        <br>
+        <br>
+        <p>¿Está de acuerdo con los términos y condiciones?</p>
+
+        <input type="radio" id="html" name="¿Estás de acuerdo con los términos y condiciones?" value="Si, estoy de acuerdo."required>
+         <label for="Si, estoy de acuerdo">Si, estoy de acuerdo.</label><br>
+         <input type="radio" id="css" name="¿Está de acuerdo con los términos y condiciones?" value="No, estoy de acuerdo."required>
+         <label for="No, estoy de acuerdo.">No, estoy de acuerdo.</label><br>
+        <br>
+        <label>Metodo de pago</label>
+        <select id="met" name="metodo de pago"required>
+            <option value="Efectivo">Efectivo</option>
+            <option value="PayPal">PayPal</option>
+            <option value="Tarjeta de crédito">Tarjeta de crédito</option>
+            <option value="Tarjeta de débito">Tarjeta de débito</option>
+            <option value="PSE">PSE</option>
+        </select>
+<br>
+<br>
+<input type="submit" value="ingresar">
+    </form>
+</div>
+
+</body>
+
+    </html>
+</DOCTYPE>
